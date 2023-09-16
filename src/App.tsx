@@ -9,21 +9,21 @@ function App() {
 
         <div className="card-grid">
           <div className="card">
-            <div className={"flipped"}>
-              <img className="front" alt="card front" />
-              <img className="back" src="img/helmet-1.png" alt="cover" />
+            <div className="flipped">
+              <img className="front" alt="card front" src="img/helmet-1.png" />
+              <img className="back" src="img/cover.png" alt="cover" />
             </div>
           </div>
           <div className="card">
             <div>
-              <img className="front" alt="card front" />
-              <img className="back" src="img/potion-1.png" alt="cover" />
+              <img className="front" alt="card front" src="img/potion-1.png" />
+              <img className="back" src="img/cover.png" alt="cover" />
             </div>
           </div>
           <div className="card">
-            <div>
-              <img className="front" alt="card front" />
-              <img className="back" src="img/ring-1.png" alt="cover" />
+            <div className="flipped">
+              <img className="front" alt="card front" src="img/potion-1.png" />
+              <img className="back" src="img/cover.png" alt="cover" />
             </div>
           </div>
         </div>
